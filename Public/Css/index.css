@@ -4,6 +4,7 @@
     --color1: #1DB954;
     --color2: #FFFFFF;
     --color3: #191414;
+    --altColor: #535353;
 }
 
 * {
@@ -14,3 +15,14 @@
 }
 
 /* Nav Styles */
+nav {
+    position: absolute;
+    right: 0;
+    width: 82%;
+    height: 12%;
+    
+    background-color: var(--color3);
+    color: #fff;
+}
+
+li { display: inline-block; }
