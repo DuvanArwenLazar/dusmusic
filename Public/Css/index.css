@@ -23,7 +23,7 @@ nav {
 
     position: absolute;
     right: 0;
-    width: 82%;
+    width: 82.5%;
     height: 10%;
     
     background-color: var(--color3);
@@ -76,6 +76,40 @@ li { display: inline-block; }
 }
 
 a {text-decoration: none;}
+a:visited {text-decoration: none; color: white;}
 .btn:hover, .t-desc:hover { transform: scale(1.04, 1.04); }
 .btn-login:hover { opacity: .95; }
 .btn-register:hover, .t-desc:hover { color: var(--color2); }
+
+/* --- Aside Styles --- */
+aside {
+    display: flex;
+    flex-direction: column;
+    /* align-content: flex-start; */
+    background-color: #000000;
+    color: var(--color2);
+
+    /* outline: solid 3px red; */
+    right: 0;
+    width: 17.6%;
+    min-height: 100vh;
+}
+
+.aside > div {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.search-container, .library-container {
+    margin-top: 15px;
+}
+
+.library-container {
+    margin-bottom: 40px;
+}
+
+.text-i {
+    position: relative;
+    margin-left: 13px;
+    top: -5px;
+}
