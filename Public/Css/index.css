@@ -3,7 +3,7 @@
 :root {
     --color1: #1DB954;
     --color2: #FFFFFF;
-    --color3: #191414;
+    --color3: #0c0909;
     --altColor: #535353;
     --altColor2: #909090;
 }
@@ -135,3 +135,16 @@ aside {
     text-decoration:underline;
 }
 
+/* --- Main Styles --- */
+main {
+    display: flex;
+
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 82.5%;
+    min-height: 90vh;
+    
+    background-color: #101010;
+    color: #fff;
+}
