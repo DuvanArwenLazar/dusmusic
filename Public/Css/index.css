@@ -100,7 +100,7 @@ aside {
     margin-left: 10%;
 }
 
-.search-container, .library-container {
+.search-container, .library-container, .liked-songs {
     margin-top: 15px;
 }
 
@@ -113,3 +113,25 @@ aside {
     margin-left: 13px;
     top: -5px;
 }
+
+.legal-text {
+    font-size: 10px;
+    margin-top: 118px;
+    
+}
+
+.legal-text > a {
+    display: inline-block;
+    margin-top: 20px;
+    padding-right: 15px;
+    color: #ffffff90;
+}
+
+.search-container > .text-i, .library-container > .text-i, .playlist-create-container > .text-i, .liked-songs > .text-i { color: #ffffff90; }
+
+.search-container > .text-i:hover, .library-container > .text-i:hover, .playlist-create-container > .text-i:hover, .liked-songs > .text-i:hover { color: var(--color2); }
+
+.underlining:hover {
+    text-decoration:underline;
+}
+
