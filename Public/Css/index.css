@@ -148,3 +148,7 @@ main {
     background-color: #101010;
     color: #fff;
 }
+
+h2 {
+    display: block;
+}
