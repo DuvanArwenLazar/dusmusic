@@ -138,6 +138,7 @@ aside {
 /* --- Main Styles --- */
 main {
     display: flex;
+    flex-direction: column;
 
     position: absolute;
     top: 10%;
@@ -149,6 +150,92 @@ main {
     color: #fff;
 }
 
-h2 {
-    display: block;
+h2.s-title {
+    margin-top: 18px;
+    margin-left: 45px;
+}
+
+.artwork > img {
+    padding-top: 20px;
+    width: 160px;
+    /* border-radius: 12px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.container-sections {
+    display: flex;
+    flex-flow: wrap;
+
+    margin-top: 18px;
+    margin-left: 32px;
+
+}
+
+.section {
+    text-align: center;
+    width: 18%;
+    height: 275px;
+
+    background-color: #171717;
+    margin: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.more {
+    margin-left: 20px;
+    text-align: left;
+    position: relative;
+    top: 3px;
+}
+
+.more > h4 {
+    padding-top: 5px;
+}
+
+.more > p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #505050;
+    font-weight: 1000;
+}
+
+.two {
+    margin-top: 15px 0px;
+}
+
+.s-title-two {
+    margin-top: 15px;
+}
+
+.section:hover {
+    background-color: #252525;
+    transition: all .3s;
+}
+
+.triangle { 
+    height: 0px; 
+    width: 0px; 
+    border-bottom: 15px solid black; 
+    border-right: 10px solid transparent; 
+    border-left: 10px solid transparent; 
+    rotate: 90deg;
+    /* outline: 3px solid green; */
+    position: absolute;
+    border-radius: 1px;
+
+}
+
+.b-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50px; 
+    height: 50px;
+    border-radius: 50px;
+    background-color: var(--color1);
+    position: absolute;
+    top: 200px;
+    display: none;
 }
