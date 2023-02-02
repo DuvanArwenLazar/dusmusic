@@ -231,39 +231,6 @@
             </div>
         </div>
     </main>
-
-    <footer class="footer">
-        <div class="text">
-            <div class="f">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-            <div class="f">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-            <div class="f">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-        </div>
-
-        <div class="icon">
-            
-        </div>
-    </footer>
-
-    <hr>
-
-    © 2023 Spotify AB
-
-    <!-- <script src="./Public/Ts/index.ts"></script> -->
-    <script src="./Public/Js/index.js"></script>
-</body>
-</html>
+<?php 
+    include './Inc/footer.php';
+?>

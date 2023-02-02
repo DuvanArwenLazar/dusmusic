@@ -92,7 +92,7 @@ aside {
     /* outline: solid 3px red; */
     right: 0;
     width: 17.6%;
-    min-height: 100vh;
+    height: 1250px;
 }
 
 .aside > div {
@@ -144,7 +144,7 @@ main {
     top: 10%;
     right: 0;
     width: 82.5%;
-    min-height: 90vh;
+    height: 1000px;
     
     background-color: #101010;
     color: #fff;
@@ -180,6 +180,7 @@ h2.s-title {
     margin: 8px;
     border-radius: 10px;
     font-size: 15px;
+    padding-bottom: 30px;
 }
 
 .more {
