@@ -13,27 +13,33 @@
         background-color: #101010;
         color: #fff;
     }
+
+    .text {
+        display: flex;
+        flex-direction: row;
+    }
 </style>
    
    <footer class="footer">
         <div class="text">
             <div class="f">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p><b> Compañia </b></p>
+                <p> Acerca de </p>
+                <p> Empleo </p>
+                <p> For the Record </p>
             </div>
             <div class="f">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p><b> Comunidades </b></p>
+                <p> Para artistas </p>
+                <p> Desarrolladores </p>
+                <p> Publicidad </p>
+                <p> Inversiones </p>
+                <p> Proveedores </p>
             </div>
             <div class="f">
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p><b> Enlaces útiles </b></p>
+                <p> Ayuda </p>
+                <p> App móvil gratis </p>
             </div>
         </div>
 
