@@ -231,6 +231,4 @@
             </div>
         </div>
     </main>
-<?php 
-    include './Inc/footer.php';
-?>
+<?php include './Inc/footer.php'; ?>
