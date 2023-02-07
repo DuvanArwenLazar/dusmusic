@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+:root {
+    --color1: #1DB954;
+    --color2: #FFFFFF;
+    --color3: #0c0909;
+    --altColor: #535353;
+    --altColor2: #909090;
+    --facebook: #405A93;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+.title-img {
+    margin: 35px 0px;
+}
+
+h1 {
+    font-weight: bolder;
+    letter-spacing: -1px;
+    font-style: bold;
+}
+
+.facebook, .google {
+    display: flex;
+    background-color: #405A93;
+    width: 405px;
+    height: 45px;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 36px;
+    font-weight: bolder;
+}
+
+.facebook {
+    color: white;
+    margin-top: 35px;
+}
+
+.google {
+    margin-top: 20px;
+    background-color: #fff;
+    color: #6a6a6a;
+    border: 2px solid #6a6a6a;
+    margin-bottom: 35px;
+}
+
+.facebook > img, .google > img {
+    margin-right: 15px;
+}
+
+.or, hr {
+    display: inline-block;
+    margin-bottom: 35px;
+}
+
+hr {
+    height: 2px;
+    width: 170px;
+    margin: 0px 25px 0px 25px;
+    background-color: #535353;
+}
+
+label {
+    display: block;
+}

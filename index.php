@@ -9,13 +9,6 @@
     <link rel="stylesheet" href="./Public/Css/index.css">
 </head>
 <body class="body">
-
-    <!-- <div class="reminder">
-        <p> text </p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At animi commodi laboriosam assumenda velit voluptates.</p>
-        <button> Sign up for free </button>
-    </div> -->
-    
     <nav class="nav">
         <div class="text">
             <ul>
@@ -23,7 +16,7 @@
                 <li><a href="#"><p class="t-desc"> Ayuda </p></li></a>
                 <li><a href="#"><p class="t-desc"> Descargar </p></li></a>
                 <li class="hr"><hr class="line"></li>
-                <li><a href="#"><p class="btn btn-register"> Regístrate </p></li></a>
+                <li><a href="./Views/signup.html"><p class="btn btn-register"> Regístrate </p></li></a>
                 <button class="btn btn-login"> Iniciar sesión </button>
             </ul>
             
