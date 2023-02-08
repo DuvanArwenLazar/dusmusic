@@ -29,25 +29,27 @@
         <form action="" method="post">
             <div>
                 <label for=""> ¿Cuál es tu email? </label>
-                <input type="text">
+                <input type="text" placeholder="Introduce tu email.">
             </div>
             <div>
                 <label for=""> Confirma el email </label>
-                <input type="text">
+                <input type="text" placeholder="Vuelve a introducir tu email.">
             </div>
             <div>
                 <label for=""> Crea una contraseña </label>
-                <input type="text">
+                <input type="text" placeholder="Crea una contraseña.">
             </div>
             <div>
                 <label for=""> ¿Cómo quieres que te llamemos? </label>
-                <input type="text">
+                <input type="text" placeholder="Introduce un nombre de perfil.">
+            </div>
+            <div>
+                <label> ¿Cual es tu fecha de nacimiento? </label>
             </div>
             <div class="date">
-                <p> ¿Cual es tu fecha de nacimiento? </p>
                 <div class="date-element">
                     <label for=""> Día </label>
-                    <input type="text">
+                    <input type="text" placeholder="DD">
                 </div>
                 <div class="date-element">
                     <label for=""> Mes </label>
@@ -69,22 +71,26 @@
                 </div>
                 <div class="date-element">
                     <label for=""> Año </label>
-                    <input type="text">
+                    <input type="text" placeholder="AAAA">
                 </div>
             </div>
             <div>
                 <label for=""> ¿Cual es tu sexo? </label>
                 <div class="radio">
-                    <input type="radio" name="radio" id="" value="Masculino">
-                    <input type="radio" name="radio" id="" value="Femenino">
-                    <input type="radio" name="radio" id="" value="Helicoptero de combate">
-                    <input type="radio" name="radio" id="" value="Prefiero no aclararlo">
+                    <input type="radio" name="radio" id="" value=""> 
+                    <p class="radio-p"> Hombre </p>
+                    <input type="radio" name="radio" id="" value="">
+                    <p class="radio-p"> Mujer </p>
+                    <input type="radio" name="radio" id="" value=""> 
+                    <p class="radio-p"> Helicoptero de combate </p>
+                    <input type="radio" name="radio" id="" value=""> 
+                    <p class="radio-p"> Prefiero no aclararlo </p>
                 </div>
             </div>
 
-            <button type="submit"> Registrarte </button>
+            <button type="submit" class="btn btn-signup"> Registrarte </button>
         </form>
-        <p> ¿Ya tienes cuenta? <a href="#"> Inicia sesión </a></p>
+        <p class="link-login"> ¿Ya tienes cuenta? <a href="#"> Inicia sesión </a></p>
     </div>
 </body>
 </html>

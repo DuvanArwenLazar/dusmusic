@@ -55,6 +55,10 @@ h1 {
     margin-bottom: 35px;
 }
 
+.google:hover, .facebook:hover {
+    transform: scale(1.03);
+}
+
 .facebook > img, .google > img {
     margin-right: 15px;
 }
@@ -73,4 +77,93 @@ hr {
 
 label {
     display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+input {
+    width: 450px;
+    height: 45px;
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+form > div {
+    position: relative;
+    width: 450px;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.date {
+    display: flex;
+}
+
+select {
+    height: 45px;
+    padding-left: 8px;
+}
+
+.date > div > input {
+    width: 100px;
+}
+
+.date > div > select {
+    width: 200px;
+}
+
+.date > div {
+    margin-right: 20px;
+}
+
+.radio {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=radio]{
+    height: 20px;
+    width: 20px;
+}
+
+.radio-p {
+    margin: 0 20px 0 5px;
+}
+
+.btn-signup {
+    margin: 30px 0 15px 0;
+    background-color: #2fe26d;
+    color: #000;
+    padding: 14px;
+    border: none;
+    border-radius: 36px;
+    min-width: 160px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+
+.btn { font-weight: bold; }
+
+.btn {
+    margin-left: 12px; 
+    letter-spacing: 0.5px;
+}
+
+.link-login {
+    margin-bottom: 30px;
+}
+
+.btn-signup:hover {
+    transform: scale(1.1);
+    background-color: #1ceb65;
+}
+
+a:link, a:visited {
+    color: var(--color1);
+}
+
+a:hover {
+    color: #1ceb65;
 }
