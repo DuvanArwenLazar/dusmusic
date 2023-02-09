@@ -26,22 +26,23 @@
     <hr><p class="or">o</p><hr>
 
     <div class="form">
-        <form action="" method="post">
+        <form action="../Controllers/UserController.php" method="post" id="register_form">
+            <input type="hidden" name="action" value="prepare_registration">
             <div>
                 <label for=""> ¿Cuál es tu email? </label>
-                <input type="text" placeholder="Introduce tu email.">
+                <input type="text" placeholder="Introduce tu email." name="email_u">
             </div>
             <div>
                 <label for=""> Confirma el email </label>
-                <input type="text" placeholder="Vuelve a introducir tu email.">
+                <input type="text" placeholder="Vuelve a introducir tu email." name="email_confirm_u">
             </div>
             <div>
                 <label for=""> Crea una contraseña </label>
-                <input type="text" placeholder="Crea una contraseña.">
+                <input type="text" placeholder="Crea una contraseña." name="password_u">
             </div>
             <div>
                 <label for=""> ¿Cómo quieres que te llamemos? </label>
-                <input type="text" placeholder="Introduce un nombre de perfil.">
+                <input type="text" placeholder="Introduce un nombre de perfil." name="username_u">
             </div>
             <div>
                 <label> ¿Cual es tu fecha de nacimiento? </label>
@@ -49,41 +50,41 @@
             <div class="date">
                 <div class="date-element">
                     <label for=""> Día </label>
-                    <input type="text" placeholder="DD">
+                    <input type="text" placeholder="DD" name="date_day_u">
                 </div>
                 <div class="date-element">
                     <label for=""> Mes </label>
-                    <select name="" id="">
-                        <option value=""> Mes </option>
-                        <option value=""> Enero </option>
-                        <option value=""> Febrero </option>
-                        <option value=""> Marzo </option>
-                        <option value=""> Abril </option>
-                        <option value=""> Mayo </option>
-                        <option value=""> Junio </option>
-                        <option value=""> Julio </option>
-                        <option value=""> Agosto </option>
-                        <option value=""> Septiembre </option>
-                        <option value=""> Octubre </option>
-                        <option value=""> Noviembre </option>
-                        <option value=""> Diciembre </option>
+                    <select id="" name="date_month_u">
+                        <option value="Month"> Mes </option>
+                        <option value="January"> Enero </option>
+                        <option value="February"> Febrero </option>
+                        <option value="March"> Marzo </option>
+                        <option value="April"> Abril </option>
+                        <option value="May"> Mayo </option>
+                        <option value="June"> Junio </option>
+                        <option value="July"> Julio </option>
+                        <option value="August"> Agosto </option>
+                        <option value="September"> Septiembre </option>
+                        <option value="October"> Octubre </option>
+                        <option value="November"> Noviembre </option>
+                        <option value="Dicember"> Diciembre </option>
                     </select>
                 </div>
                 <div class="date-element">
                     <label for=""> Año </label>
-                    <input type="text" placeholder="AAAA">
+                    <input type="text" placeholder="AAAA" name="date_year_u">
                 </div>
             </div>
             <div>
                 <label for=""> ¿Cual es tu sexo? </label>
                 <div class="radio">
-                    <input type="radio" name="radio" id="" value=""> 
+                    <input type="radio" name="sex_u" id="" value="man"> 
                     <p class="radio-p"> Hombre </p>
-                    <input type="radio" name="radio" id="" value="">
+                    <input type="radio" name="sex_u" id="" value="woman">
                     <p class="radio-p"> Mujer </p>
-                    <input type="radio" name="radio" id="" value=""> 
+                    <input type="radio" name="sex_u" id="" value="apache"> 
                     <p class="radio-p"> Helicoptero de combate </p>
-                    <input type="radio" name="radio" id="" value=""> 
+                    <input type="radio" name="sex_u" id="" value="no"> 
                     <p class="radio-p"> Prefiero no aclararlo </p>
                 </div>
             </div>
