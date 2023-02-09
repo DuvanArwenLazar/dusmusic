@@ -29,11 +29,15 @@
         <form action="" method="post">
             <div>
                 <label for=""> ¿Cuál es tu email? </label>
-                <input type="text" placeholder="Introduce tu email.">
+                <input type="text" placeholder="Introduce tu email." id="email_u" onkeyup="email_validate()">
+                <p class="alert"> Es necesario que introduzcas tu email. </p>
+                <p class="alert"> Este email no es válido. Asegúrate de que tenga un formato como este: ejemplo@email.com </p>
             </div>
             <div>
                 <label for=""> Confirma el email </label>
-                <input type="text" placeholder="Vuelve a introducir tu email.">
+                <input type="text" placeholder="Vuelve a introducir tu email." id="email_confirm_u">
+                <p class="alert"> Es necesario que confirmes tu email </p>
+                <p class="alert"> Es necesario que confirmes tu email </p>
             </div>
             <div>
                 <label for=""> Crea una contraseña </label>
@@ -92,5 +96,10 @@
         </form>
         <p class="link-login"> ¿Ya tienes cuenta? <a href="#"> Inicia sesión </a></p>
     </div>
+
+
+
+    <script src="../Public/Js/signup.js"></script>
+    <script src="../Public/Js/jquery-3.6.3.min.js"></script>
 </body>
 </html>
