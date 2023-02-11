@@ -167,3 +167,9 @@ a:link, a:visited {
 a:hover {
     color: #1ceb65;
 }
+
+.alert, .always {
+    display: none;
+    margin-top: 5px;
+    color: red;
+}

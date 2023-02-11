@@ -30,22 +30,27 @@
             <div>
                 <label for=""> ¿Cuál es tu email? </label>
                 <input type="text" placeholder="Introduce tu email." id="email_u" onkeyup="email_validate()">
-                <p class="alert"> Es necesario que introduzcas tu email. </p>
-                <p class="alert"> Este email no es válido. Asegúrate de que tenga un formato como este: ejemplo@email.com </p>
+                <p class="alert" id="a-1"> Es necesario que introduzcas tu email. </p>
+                <p class="alert" id="a-2"> Este email no es válido. Asegúrate de que tenga un formato como este: ejemplo@email.com </p>
+                <p class="alert" id="a-3"> Este email ya está conectado a una cuenta. Inicia sesión. </p>
             </div>
             <div>
                 <label for=""> Confirma el email </label>
                 <input type="text" placeholder="Vuelve a introducir tu email." id="email_confirm_u">
-                <p class="alert"> Es necesario que confirmes tu email </p>
-                <p class="alert"> Es necesario que confirmes tu email </p>
+                <p class="alert" id="a-4"> Es necesario que confirmes tu email </p>
+                <p class="alert" id="a-5"> Las direcciones de email no coinciden. </p>
             </div>
             <div>
                 <label for=""> Crea una contraseña </label>
                 <input type="text" placeholder="Crea una contraseña.">
+                <p class="alert" id="a-6"> Tu contraseña es muy corta. </p>
+                <p class="alert" id="a-7"> Tu contraseña no es suficientemente segura. Elige una más segura. </p>
             </div>
             <div>
                 <label for=""> ¿Cómo quieres que te llamemos? </label>
                 <input type="text" placeholder="Introduce un nombre de perfil.">
+                <p class="alert" id="a-8"> Introduce un nombre para tu perfil. </p>
+                <p class="always" id="a-9"> Esto aparece en tu perfil. </p>
             </div>
             <div>
                 <label> ¿Cual es tu fecha de nacimiento? </label>
@@ -54,6 +59,7 @@
                 <div class="date-element">
                     <label for=""> Día </label>
                     <input type="text" placeholder="DD">
+                    <p class="alert" id="a-10"> Selecciona tu mes de nacimiento. </p>
                 </div>
                 <div class="date-element">
                     <label for=""> Mes </label>
@@ -72,10 +78,12 @@
                         <option value=""> Noviembre </option>
                         <option value=""> Diciembre </option>
                     </select>
+                    <p class="alert" id="a-11"> Indica un día del mes válido. </p>
                 </div>
                 <div class="date-element">
                     <label for=""> Año </label>
                     <input type="text" placeholder="AAAA">
+                    <p class="alert" id="a-12"> Indica un año válido. </p>
                 </div>
             </div>
             <div>
