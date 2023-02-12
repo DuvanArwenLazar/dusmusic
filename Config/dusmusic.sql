@@ -2,7 +2,7 @@ CREATE DATABASE dusmusic;
 USE dusmusic;
 
 CREATE TABLE user_dus (
-    id_u int(11),
+    id_u int(11) AUTO_INCREMENT,
     email_u varchar(55) UNIQUE,
     password_u varchar(255),
     username_u varchar(255),
