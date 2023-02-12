@@ -26,29 +26,29 @@
     <hr><p class="or">o</p><hr>
 
     <div class="form">
-        <form action="" method="post">
+        <form action="" method="post" id="register-form">
             <div>
                 <label for=""> ¿Cuál es tu email? </label>
-                <input type="text" placeholder="Introduce tu email." id="email_u" onkeyup="email_validate()">
+                <input type="text" placeholder="Introduce tu email." id="email_u" onkeyup="email_validate()" class="">
                 <p class="alert" id="a-1"> Es necesario que introduzcas tu email. </p>
                 <p class="alert" id="a-2"> Este email no es válido. Asegúrate de que tenga un formato como este: ejemplo@email.com </p>
                 <p class="alert" id="a-3"> Este email ya está conectado a una cuenta. Inicia sesión. </p>
             </div>
             <div>
                 <label for=""> Confirma el email </label>
-                <input type="text" placeholder="Vuelve a introducir tu email." id="email_confirm_u">
+                <input type="text" placeholder="Vuelve a introducir tu email." id="email_confirm_u" class="">
                 <p class="alert" id="a-4"> Es necesario que confirmes tu email </p>
                 <p class="alert" id="a-5"> Las direcciones de email no coinciden. </p>
             </div>
             <div>
                 <label for=""> Crea una contraseña </label>
-                <input type="text" placeholder="Crea una contraseña.">
+                <input type="text" placeholder="Crea una contraseña." class="">
                 <p class="alert" id="a-6"> Tu contraseña es muy corta. </p>
                 <p class="alert" id="a-7"> Tu contraseña no es suficientemente segura. Elige una más segura. </p>
             </div>
             <div>
                 <label for=""> ¿Cómo quieres que te llamemos? </label>
-                <input type="text" placeholder="Introduce un nombre de perfil.">
+                <input type="text" placeholder="Introduce un nombre de perfil." class="">
                 <p class="alert" id="a-8"> Introduce un nombre para tu perfil. </p>
                 <p class="always" id="a-9"> Esto aparece en tu perfil. </p>
             </div>
@@ -58,12 +58,12 @@
             <div class="date">
                 <div class="date-element">
                     <label for=""> Día </label>
-                    <input type="text" placeholder="DD">
+                    <input type="text" placeholder="DD" class="">
                     <p class="alert" id="a-10"> Selecciona tu mes de nacimiento. </p>
                 </div>
                 <div class="date-element">
                     <label for=""> Mes </label>
-                    <select name="" id="">
+                    <select name="" id="" class="">
                         <option value=""> Mes </option>
                         <option value=""> Enero </option>
                         <option value=""> Febrero </option>
@@ -104,8 +104,6 @@
         </form>
         <p class="link-login"> ¿Ya tienes cuenta? <a href="#"> Inicia sesión </a></p>
     </div>
-
-
 
     <script src="../Public/Js/signup.js"></script>
     <script src="../Public/Js/jquery-3.6.3.min.js"></script>
