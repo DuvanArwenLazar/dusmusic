@@ -30,19 +30,19 @@
             <input type="hidden" name="action" value="prepare_registration">
             <div>
                 <label for=""> ¿Cuál es tu email? </label>
-                <input type="text" placeholder="Introduce tu email." name="email_u">
+                <input type="text" placeholder="Introduce tu email." name="email_u" id="email_u">
             </div>
             <div>
                 <label for=""> Confirma el email </label>
-                <input type="text" placeholder="Vuelve a introducir tu email." name="email_confirm_u">
+                <input type="text" placeholder="Vuelve a introducir tu email." name="email_confirm_u" id="email_confirm_u">
             </div>
             <div>
                 <label for=""> Crea una contraseña </label>
-                <input type="text" placeholder="Crea una contraseña." name="password_u">
+                <input type="text" placeholder="Crea una contraseña." name="password_u" id="password_u">
             </div>
             <div>
                 <label for=""> ¿Cómo quieres que te llamemos? </label>
-                <input type="text" placeholder="Introduce un nombre de perfil." name="username_u">
+                <input type="text" placeholder="Introduce un nombre de perfil." name="username_u" id="username_u">
             </div>
             <div>
                 <label> ¿Cual es tu fecha de nacimiento? </label>
@@ -50,11 +50,11 @@
             <div class="date">
                 <div class="date-element">
                     <label for=""> Día </label>
-                    <input type="text" placeholder="DD" name="date_day_u">
+                    <input type="text" placeholder="DD" name="date_day_u" id="date_day_u">
                 </div>
                 <div class="date-element">
                     <label for=""> Mes </label>
-                    <select id="" name="date_month_u">
+                    <select name="date_month_u" id="date_month_u">
                         <option value="Month"> Mes </option>
                         <option value="January"> Enero </option>
                         <option value="February"> Febrero </option>
@@ -72,19 +72,19 @@
                 </div>
                 <div class="date-element">
                     <label for=""> Año </label>
-                    <input type="text" placeholder="AAAA" name="date_year_u">
+                    <input type="text" placeholder="AAAA" name="date_year_u" id="date_year_u">
                 </div>
             </div>
             <div>
                 <label for=""> ¿Cual es tu sexo? </label>
                 <div class="radio">
-                    <input type="radio" name="sex_u" id="" value="man"> 
+                    <input type="radio" name="sex_u" id="sex_u" value="man"> 
                     <p class="radio-p"> Hombre </p>
-                    <input type="radio" name="sex_u" id="" value="woman">
+                    <input type="radio" name="sex_u" id="sex_u" value="woman">
                     <p class="radio-p"> Mujer </p>
-                    <input type="radio" name="sex_u" id="" value="apache"> 
+                    <input type="radio" name="sex_u" id="sex_u" value="apache"> 
                     <p class="radio-p"> Helicoptero de combate </p>
-                    <input type="radio" name="sex_u" id="" value="no"> 
+                    <input type="radio" name="sex_u" id="sex_u" value="no"> 
                     <p class="radio-p"> Prefiero no aclararlo </p>
                 </div>
             </div>
@@ -93,5 +93,9 @@
         </form>
         <p class="link-login"> ¿Ya tienes cuenta? <a href="#"> Inicia sesión </a></p>
     </div>
+
+
+    <script src="../Public/Js/jquery-3.6.3.min.js"></script>
+    <script src="../Public/Js/signup.js"></script>
 </body>
 </html>
